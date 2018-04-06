@@ -1,0 +1,22 @@
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/flmain"
+        tools:context="com.example.mohamed.malapp.MainActivityFragment"
+        tools:showIn="@layout/activity_main">
+
+        <GridView
+            android:layout_marginTop="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchMode="columnWidth"
+            android:id="@+id/gridView"
+            android:numColumns="auto_fit"
+            android:gravity="center"
+
+            />
+    </FrameLayout>
+
